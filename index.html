@@ -9,10 +9,41 @@
     </head>
     <body>
         <h1>project</h1>
-        <video playsinline autoplay></video>
-        <button>Take snapshot</button>
-        <canvas></canvas>
-        <span></span>
+        <h2>video</h2>
+        <video playsinline autoplay></video> <br/>
+        <button >분석</button>
+        <br/>
+        <h2>결과</h2>
+        <table>
+            <tr>
+                <th><h5>얼굴검출</h5></th>
+                <th><h5>변환 이미지</h5></th>
+                <th><h5>결과</h5></th>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <canvas></canvas></td>
+                <td><span></span></td>
+            </tr>
+        </table>
+
+       <br/>
+
+        <style>
+            table {
+              border-collapse: collapse;
+            }
+
+            table, th, td {
+              border: 1px solid black;
+            }
+
+            button {
+                padding: 10px;
+                border-radius: 5px;
+            }
+        </style>
+
 
 
 
@@ -20,6 +51,5 @@
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0" ></script>
 
         <script src="./main.js"></script>
-
     </body>
 </html>
