@@ -65,7 +65,7 @@ button.onclick = function() {
     span.innerHTML = LABELS[i];
   }
 
-  function faceRecognition = {
+  function faceRecognition() = {
 
   }
 
